@@ -16,7 +16,7 @@ void main(){
     }
 	while (1){
 		printf("User input string: ");
-        scanf("%s", &buf); //scan string to input ADDRESS
+        	scanf("%s", &buf); //scan string to input ADDRESS
 		write(fd, &buf, 255);//write input ADDRESS to fd
 	}
 	close(fd);
